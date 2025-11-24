@@ -7,11 +7,8 @@ palindromaparola(parola);
 /* Definizione funzioni */
 
 function palindromaparola(parola) {
-    const arrey_parola = parola.split("");
-    arrey_parola.reverse();
-    let parola_reverse = arrey_parola.join("");
-    console.log(parola_reverse);
-    if (parola_reverse === parola) {
+    const arrey_parola = parola.split("").reverse().join("");
+    if (arrey_parola === parola) {
         alert("E' PALINDROMA");
     } else {
         alert("NON E' PALINDORMA");
