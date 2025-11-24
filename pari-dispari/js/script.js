@@ -24,8 +24,7 @@ console.log(result);
 /* DEFINIZIONE FUNZIONI */
 
 function randomNumber(min, max) {
-    let number = Math.floor(Math.random() * (max - min + 1) + min);
-    return number;
+    return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 function pariDispari(somma) {
